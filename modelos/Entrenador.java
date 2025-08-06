@@ -2,9 +2,9 @@ package laboratorio1poo.modelos;
 
 public class Entrenador {
     public Pokemon[] pokemones;
-    public Integer victorias;
+    public Integer victorias=0;
 
-    Entrenador(Pokemon[] pokemones){
+    public Entrenador(Pokemon[] pokemones){
         this.pokemones= pokemones;
     }
 

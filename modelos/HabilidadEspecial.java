@@ -9,7 +9,7 @@ public class HabilidadEspecial {
     public Integer probabilidad;
 
 
-    HabilidadEspecial(String nombre, String tipoEfecto, Integer efecto, Integer probabilidad){
+    public HabilidadEspecial(String nombre, String tipoEfecto, Integer efecto, Integer probabilidad){
         this.nombre = nombre;
         this.tipoEfecto = tipoEfecto;
         this.efecto = efecto;

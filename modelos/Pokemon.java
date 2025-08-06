@@ -7,7 +7,7 @@ public class Pokemon {
     public Integer defensa;
     private HabilidadEspecial habilidad;
 
-    Pokemon(String nombre, String tipo,Integer ataque, Integer defensa, HabilidadEspecial habilidad){
+    public Pokemon(String nombre, String tipo,Integer ataque, Integer defensa, HabilidadEspecial habilidad){
         this.nombre= nombre;
         this.tipo= tipo;
         this.ataque= ataque;
